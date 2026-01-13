@@ -1,28 +1,13 @@
-    body {
-        margin: 0px;
-        padding: 0px;
-    }
+div#container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    grid-template-rows: auto;
+}
+
+.bloco {
+    border: 1px solid black;
+    padding: 10px;
     
-    #FotoMapa {
-        background-image: url(imagens/one-piece-mapa-do-mundo.webp);
-        width: 100%;
-        height: 250px;
-        background-position: bottom;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        margin: 0px;
-    }
-
-    h1 {
-        display: flex;
-        justify-content: center;
-        color: rgb(255, 255, 255);
-        padding-top: 15px;
-        margin: 0px;
-    }
-
-    nav {
-        display: block;
-        
-    }
+    
+}
